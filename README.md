@@ -46,6 +46,6 @@ All the data was used until the last day for training. The last day/24 hours i.e
 ### <ins> Setup Instructions <br></ins>
 - The package dependencies are listed in requirements.txt and can be installed via pip3 -r install requirements.txt
 - There are 3 code files that are present in this repo -<br>
--- forecasting_evPlugs.ipynb - Consists of all the code and can be used to view the graphs & output in a jupyter notebook<br>
--- forecasting_evPlugs.py - Consists of all the code and can be used as a script to be run without the view of graphs & output, run it on command line via python3 forecasting_evPlugs.py<br>
+-- Forecasting_EV_Plugs.ipynb - Consists of all the code and can be used to view the graphs & output in a jupyter notebook<br>
+-- Forecasting_EV_Plugs.py - Consists of all the code and can be used as a script to be run without the view of graphs & output, run it on command line via python3 forecasting_evPlugs.py<br>
 -- holiday_dates.csv - CSV file consisting of dates when there was a holiday, according to the timeframe of the data given
