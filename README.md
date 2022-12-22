@@ -47,5 +47,5 @@ All the data was used until the last day for training. The last day/24 hours i.e
 - The package dependencies are listed in requirements.txt and can be installed via pip3 -r install requirements.txt
 - There are 3 code files that are present in this repo -<br>
 -- forecasting_evPlugs.ipynb - Consists of all the code and can be used to view the graphs & output in a jupyter notebook<br>
--- forecasting_evPlugs.py - Consists of all the code and can be used as a script to be run without the view of graphs & output<br>
+-- forecasting_evPlugs.py - Consists of all the code and can be used as a script to be run without the view of graphs & output, run it on command line via python3 forecasting_evPlugs.py<br>
 -- main.py - Used to run the code present in forecasting_evPlugs.py
