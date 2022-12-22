@@ -265,11 +265,11 @@ alldata_areafinaltest = alldata_areafinaltest.drop(['Available','Charging','Pass
 
 
 ##On area level
-fig1 = px.line(alldata_areafinaltrain, x = 'date', y = 'Available', color = 'area')
-fig1.show()
+#fig1 = px.line(alldata_areafinaltrain, x = 'date', y = 'Available', color = 'area')
+#fig1.show()
 
-fig1 = px.line(alldata_areafinaltrain, x = 'date', y = 'Passive', color = 'area')
-fig1.show()
+#fig1 = px.line(alldata_areafinaltrain, x = 'date', y = 'Passive', color = 'area')
+#fig1.show()
 
 
 # ### Modelling strategy for area level data
@@ -391,11 +391,11 @@ alldata_globalfinaltest = alldata_globalfinaltest.drop(['Available','Charging','
 
 
 ##On global level
-fig1 = px.line(alldata_globalfinaltrain, x = 'date', y = 'Available')
-fig1.show()
+#fig1 = px.line(alldata_globalfinaltrain, x = 'date', y = 'Available')
+#fig1.show()
 
-fig1 = px.line(alldata_globalfinaltrain, x = 'date', y = 'Passive')
-fig1.show()
+#fig1 = px.line(alldata_globalfinaltrain, x = 'date', y = 'Passive')
+#fig1.show()
 
 
 # ### Modelling strategy for global level data
